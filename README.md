@@ -55,7 +55,7 @@ $ yarn add webpack-dev-server --dev
 ### babel導入
 
 ```bash
-$ yarn add @babel/core @babel/preset-env babel-loader @babel/polyfill --dev
+$ yarn add @babel/core @babel/preset-env babel-loader --dev
 ```
 
 ### React導入

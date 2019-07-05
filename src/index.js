@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import {SubComponent} from './sub-component';
+import {HelloWorld} from './sub';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <SubComponent name="My Counter!!!" />
+        <HelloWorld name="okutani" />
       </div>
     );
   }
 }
+
 ReactDOM.render(<App/>, document.querySelector('#app'));
